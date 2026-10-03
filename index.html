@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flags (3x2)</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+
+      .Countries {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .Country {
+        flex: 0 0 10%;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
+      .CountryFlagContainer {
+        position: relative;
+        width: 100%;
+        padding-bottom: calc(100% * 2 / 3);
+      }
+
+      .CountryFlag {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 0 1px black;
+      }
+
+      .Country h1 {
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+    <div class="Countries">
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Andorra%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Andorra" class="CountryFlag" src="svg/AD.svg"/>
+          </a>
+        </div>
+        <h1 title="Andorra">
+          AD
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Afghanistan%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Afghanistan" class="CountryFlag" src="svg/AF.svg"/>
+          </a>
+        </div>
+        <h1 title="Afghanistan">
+          AF
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Antigua%20and%20Barbuda%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Antigua and Barbuda" class="CountryFlag" src="svg/AG.svg"/>
+          </a>
+        </div>
+        <h1 title="Antigua and Barbuda">
+          AG
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Albania%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Albania" class="CountryFlag" src="svg/AL.svg"/>
+          </a>
+        </div>
+        <h1 title="Albania">
+          AL
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Armenia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Armenia" class="CountryFlag" src="svg/AM.svg"/>
+          </a>
+        </div>
+        <h1 title="Armenia">
+          AM
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Angola%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Angola" class="CountryFlag" src="svg/AO.svg"/>
+          </a>
+        </div>
+        <h1 title="Angola">
+          AO
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Argentina%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Argentina" class="CountryFlag" src="svg/AR.svg"/>
+          </a>
+        </div>
+        <h1 title="Argentina">
+          AR
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Austria%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Austria" class="CountryFlag" src="svg/AT.svg"/>
+          </a>
+        </div>
+        <h1 title="Austria">
+          AT
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Australia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Australia" class="CountryFlag" src="svg/AU.svg"/>
+          </a>
+        </div>
+        <h1 title="Australia">
+          AU
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Azerbaijan%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Azerbaijan" class="CountryFlag" src="svg/AZ.svg"/>
+          </a>
+        </div>
+        <h1 title="Azerbaijan">
+          AZ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Bosnia%20and%20Herzegovina%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Bosnia and Herzegovina" class="CountryFlag" src="svg/BA.svg"/>
+          </a>
+        </div>
+        <h1 title="Bosnia and Herzegovina">
+          BA
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Barbados%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Barbados" class="CountryFlag" src="svg/BB.svg"/>
+          </a>
+        </div>
+        <h1 title="Barbados">
+          BB
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Bangladesh%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Bangladesh" class="CountryFlag" src="svg/BD.svg"/>
+          </a>
+        </div>
+        <h1 title="Bangladesh">
+          BD
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Belgium%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Belgium" class="CountryFlag" src="svg/BE.svg"/>
+          </a>
+        </div>
+        <h1 title="Belgium">
+          BE
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Burkina%20Faso%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Burkina Faso" class="CountryFlag" src="svg/BF.svg"/>
+          </a>
+        </div>
+        <h1 title="Burkina Faso">
+          BF
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Bulgaria%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Bulgaria" class="CountryFlag" src="svg/BG.svg"/>
+          </a>
+        </div>
+        <h1 title="Bulgaria">
+          BG
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Bahrain%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Bahrain" class="CountryFlag" src="svg/BH.svg"/>
+          </a>
+        </div>
+        <h1 title="Bahrain">
+          BH
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Burundi%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Burundi" class="CountryFlag" src="svg/BI.svg"/>
+          </a>
+        </div>
+        <h1 title="Burundi">
+          BI
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Benin%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Benin" class="CountryFlag" src="svg/BJ.svg"/>
+          </a>
+        </div>
+        <h1 title="Benin">
+          BJ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Brunei%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Brunei" class="CountryFlag" src="svg/BN.svg"/>
+          </a>
+        </div>
+        <h1 title="Brunei">
+          BN
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Bolivia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Bolivia" class="CountryFlag" src="svg/BO.svg"/>
+          </a>
+        </div>
+        <h1 title="Bolivia">
+          BO
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Brazil%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Brazil" class="CountryFlag" src="svg/BR.svg"/>
+          </a>
+        </div>
+        <h1 title="Brazil">
+          BR
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=The%20Bahamas%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="The Bahamas" class="CountryFlag" src="svg/BS.svg"/>
+          </a>
+        </div>
+        <h1 title="The Bahamas">
+          BS
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Bhutan%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Bhutan" class="CountryFlag" src="svg/BT.svg"/>
+          </a>
+        </div>
+        <h1 title="Bhutan">
+          BT
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Botswana%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Botswana" class="CountryFlag" src="svg/BW.svg"/>
+          </a>
+        </div>
+        <h1 title="Botswana">
+          BW
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Belarus%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Belarus" class="CountryFlag" src="svg/BY.svg"/>
+          </a>
+        </div>
+        <h1 title="Belarus">
+          BY
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Belize%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Belize" class="CountryFlag" src="svg/BZ.svg"/>
+          </a>
+        </div>
+        <h1 title="Belize">
+          BZ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Canada%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Canada" class="CountryFlag" src="svg/CA.svg"/>
+          </a>
+        </div>
+        <h1 title="Canada">
+          CA
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Democratic%20Republic%20of%20the%20Congo%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Democratic Republic of the Congo" class="CountryFlag" src="svg/CD.svg"/>
+          </a>
+        </div>
+        <h1 title="Democratic Republic of the Congo">
+          CD
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Central%20African%20Republic%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Central African Republic" class="CountryFlag" src="svg/CF.svg"/>
+          </a>
+        </div>
+        <h1 title="Central African Republic">
+          CF
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Republic%20of%20the%20Congo%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Republic of the Congo" class="CountryFlag" src="svg/CG.svg"/>
+          </a>
+        </div>
+        <h1 title="Republic of the Congo">
+          CG
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=C%C3%B4te%20d%27Ivoire%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Côte d'Ivoire" class="CountryFlag" src="svg/CI.svg"/>
+          </a>
+        </div>
+        <h1 title="Côte d'Ivoire">
+          CI
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Cook%20Islands%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Cook Islands" class="CountryFlag" src="svg/CK.svg"/>
+          </a>
+        </div>
+        <h1 title="Cook Islands">
+          CK
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Chile%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Chile" class="CountryFlag" src="svg/CL.svg"/>
+          </a>
+        </div>
+        <h1 title="Chile">
+          CL
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Cameroon%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Cameroon" class="CountryFlag" src="svg/CM.svg"/>
+          </a>
+        </div>
+        <h1 title="Cameroon">
+          CM
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=China%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="China" class="CountryFlag" src="svg/CN.svg"/>
+          </a>
+        </div>
+        <h1 title="China">
+          CN
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Colombia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Colombia" class="CountryFlag" src="svg/CO.svg"/>
+          </a>
+        </div>
+        <h1 title="Colombia">
+          CO
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Costa%20Rica%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Costa Rica" class="CountryFlag" src="svg/CR.svg"/>
+          </a>
+        </div>
+        <h1 title="Costa Rica">
+          CR
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Cuba%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Cuba" class="CountryFlag" src="svg/CU.svg"/>
+          </a>
+        </div>
+        <h1 title="Cuba">
+          CU
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Cabo%20Verde%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Cabo Verde" class="CountryFlag" src="svg/CV.svg"/>
+          </a>
+        </div>
+        <h1 title="Cabo Verde">
+          CV
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Cyprus%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Cyprus" class="CountryFlag" src="svg/CY.svg"/>
+          </a>
+        </div>
+        <h1 title="Cyprus">
+          CY
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Czechia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Czechia" class="CountryFlag" src="svg/CZ.svg"/>
+          </a>
+        </div>
+        <h1 title="Czechia">
+          CZ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Germany%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Germany" class="CountryFlag" src="svg/DE.svg"/>
+          </a>
+        </div>
+        <h1 title="Germany">
+          DE
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Djibouti%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Djibouti" class="CountryFlag" src="svg/DJ.svg"/>
+          </a>
+        </div>
+        <h1 title="Djibouti">
+          DJ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Denmark%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Denmark" class="CountryFlag" src="svg/DK.svg"/>
+          </a>
+        </div>
+        <h1 title="Denmark">
+          DK
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Dominica%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Dominica" class="CountryFlag" src="svg/DM.svg"/>
+          </a>
+        </div>
+        <h1 title="Dominica">
+          DM
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Dominican%20Republic%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Dominican Republic" class="CountryFlag" src="svg/DO.svg"/>
+          </a>
+        </div>
+        <h1 title="Dominican Republic">
+          DO
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Algeria%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Algeria" class="CountryFlag" src="svg/DZ.svg"/>
+          </a>
+        </div>
+        <h1 title="Algeria">
+          DZ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Ecuador%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Ecuador" class="CountryFlag" src="svg/EC.svg"/>
+          </a>
+        </div>
+        <h1 title="Ecuador">
+          EC
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Estonia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Estonia" class="CountryFlag" src="svg/EE.svg"/>
+          </a>
+        </div>
+        <h1 title="Estonia">
+          EE
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Egypt%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Egypt" class="CountryFlag" src="svg/EG.svg"/>
+          </a>
+        </div>
+        <h1 title="Egypt">
+          EG
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Eritrea%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Eritrea" class="CountryFlag" src="svg/ER.svg"/>
+          </a>
+        </div>
+        <h1 title="Eritrea">
+          ER
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Ethiopia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Ethiopia" class="CountryFlag" src="svg/ET.svg"/>
+          </a>
+        </div>
+        <h1 title="Ethiopia">
+          ET
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Finland%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Finland" class="CountryFlag" src="svg/FI.svg"/>
+          </a>
+        </div>
+        <h1 title="Finland">
+          FI
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Fiji%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Fiji" class="CountryFlag" src="svg/FJ.svg"/>
+          </a>
+        </div>
+        <h1 title="Fiji">
+          FJ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=France%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="France" class="CountryFlag" src="svg/FR.svg"/>
+          </a>
+        </div>
+        <h1 title="France">
+          FR
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Gabon%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Gabon" class="CountryFlag" src="svg/GA.svg"/>
+          </a>
+        </div>
+        <h1 title="Gabon">
+          GA
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Grenada%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Grenada" class="CountryFlag" src="svg/GD.svg"/>
+          </a>
+        </div>
+        <h1 title="Grenada">
+          GD
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Georgia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Georgia" class="CountryFlag" src="svg/GE.svg"/>
+          </a>
+        </div>
+        <h1 title="Georgia">
+          GE
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Ghana%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Ghana" class="CountryFlag" src="svg/GH.svg"/>
+          </a>
+        </div>
+        <h1 title="Ghana">
+          GH
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=The%20Gambia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="The Gambia" class="CountryFlag" src="svg/GM.svg"/>
+          </a>
+        </div>
+        <h1 title="The Gambia">
+          GM
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Equatorial%20Guinea%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Equatorial Guinea" class="CountryFlag" src="svg/GQ.svg"/>
+          </a>
+        </div>
+        <h1 title="Equatorial Guinea">
+          GQ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Greece%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Greece" class="CountryFlag" src="svg/GR.svg"/>
+          </a>
+        </div>
+        <h1 title="Greece">
+          GR
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Guatemala%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Guatemala" class="CountryFlag" src="svg/GT.svg"/>
+          </a>
+        </div>
+        <h1 title="Guatemala">
+          GT
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Croatia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Croatia" class="CountryFlag" src="svg/HR.svg"/>
+          </a>
+        </div>
+        <h1 title="Croatia">
+          HR
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Cambodia%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Cambodia" class="CountryFlag" src="svg/KH.svg"/>
+          </a>
+        </div>
+        <h1 title="Cambodia">
+          KH
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Comoros%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Comoros" class="CountryFlag" src="svg/KM.svg"/>
+          </a>
+        </div>
+        <h1 title="Comoros">
+          KM
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=El%20Salvador%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="El Salvador" class="CountryFlag" src="svg/SV.svg"/>
+          </a>
+        </div>
+        <h1 title="El Salvador">
+          SV
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Eswatini%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Eswatini" class="CountryFlag" src="svg/SZ.svg"/>
+          </a>
+        </div>
+        <h1 title="Eswatini">
+          SZ
+        </h1>
+      </section>
+      <section class="Country">
+        <div class="CountryFlagContainer">
+          <a href="https://www.google.com/search?q=Chad%20flag&tbm=isch" target="_blank" class="CountryFlagLink">
+            <img title="Chad" class="CountryFlag" src="svg/TD.svg"/>
+          </a>
+        </div>
+        <h1 title="Chad">
+          TD
+        </h1>
+      </section>
+    </div>
+  </body>
+</html>
